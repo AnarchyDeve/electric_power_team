@@ -4,3 +4,6 @@ __pycache__/
 .ipynb_checkpoints/
 .streamlit/secrets.toml
 .env
+.venv/
+catboost_info/
+model/catboost_info/

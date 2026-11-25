@@ -1,0 +1,28 @@
+11월 Validation MAE (학습 3~10월)
+
+휴무일:
+- 개수: 248
+- XGB MAE: 0.2954 kWh
+- LightGBM MAE: 0.2907 kWh
+- CatBoost MAE: 0.2641 kWh
+- 앙상블 MAE: 0.2641 kWh
+- 가중치: XGB=0.00, LightGBM=0.00, CatBoost=1.00
+
+가동-야간:
+- 개수: 1080
+- XGB MAE: 8.2301 kWh
+- LightGBM MAE: 7.1428 kWh
+- CatBoost MAE: 4.3550 kWh
+- 앙상블 MAE: 3.1647 kWh
+- 가중치: XGB=0.00, LightGBM=0.00, CatBoost=1.00
+
+가동-주간:
+- 개수: 1512
+- XGB MAE: 13.7329 kWh
+- LightGBM MAE: 14.0749 kWh
+- CatBoost MAE: 12.8523 kWh
+- 앙상블 MAE: 12.7800 kWh
+- 가중치: XGB=0.20, LightGBM=0.00, CatBoost=0.80
+
+전체 전력사용량 MAE: 8.0306 kWh
+전체 전기요금 MAE: 1104.83 원
